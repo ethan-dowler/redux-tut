@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 
 import UserForm from './UserForm';
 
-export default function Counter() {
+export default function UserTable() {
   // const count = useSelector(selectCount);
   const users = useSelector(state => state.users);
 
