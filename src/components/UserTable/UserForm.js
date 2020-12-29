@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addUser } from './usersSlice';
+import { addUser } from '../../slices/users';
 
 const userFormInitialState = { name: '' };
 const UserForm = () => {
